@@ -5,7 +5,6 @@ import Level1.Interface.PizzaBuilder;
 public class MestrePizzer {
 
         private PizzaBuilder pizzaBuilder;
-
     public MestrePizzer(PizzaBuilder pizzaBuilder) {
         this.pizzaBuilder = pizzaBuilder;
     }
