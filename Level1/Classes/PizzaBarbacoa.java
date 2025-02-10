@@ -4,9 +4,9 @@ import Level1.Interface.PizzaBuilder;
 
 public class PizzaBarbacoa implements PizzaBuilder {
 
-    private  int size;
-    private String dough;
-    private String toppings;
+    private  int size = 30;
+    private String dough = "Classic";
+    private String toppings = "Cheese, Bacon, BBQ Sauce";
 
     @Override
     public PizzaBuilder setSize(int size) {
@@ -16,13 +16,11 @@ public class PizzaBarbacoa implements PizzaBuilder {
 
     @Override
     public PizzaBuilder setDough(String dough) {
-        this.dough = dough;
         return this;
     }
 
     @Override
     public PizzaBuilder setToppings(String topping) {
-        this.toppings = topping;
         return this;
     }
 

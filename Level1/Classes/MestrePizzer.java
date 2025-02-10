@@ -11,15 +11,11 @@ public class MestrePizzer {
     public Pizza buildBarbacoaPizza(){
         return pizzaBuilder
                 .setSize(30)
-                .setDough("Classic")
-                .setToppings("Cheese, Bacon, BBQ Sauce")
                 .build();
     }
     public Pizza buildHawaianPizza(){
         return pizzaBuilder
-                .setSize(30)
-                .setDough("Italian")
-                .setToppings("Cheese, Onion, Pineapple")
+                .setSize(40)
                 .build();
     }
 }
